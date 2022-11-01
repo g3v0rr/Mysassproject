@@ -1,0 +1,117 @@
+header {
+   background-image: url(linear-gradient(45deg,red,yellow,green,purple)) !important;
+    height: 1200px;
+   
+            a {
+                text-decoration: none;
+                color: greenyellow;
+                font-size: 20px;
+            }
+           } 
+    
+        .col-3 {
+            color: black;
+            &:hover{
+                color: pink;
+            }
+        }
+      .best1 {
+        font-size: 40px;
+        display: none;
+        color: red;
+        text-align: center;
+      } 
+    p {
+        color: aliceblue;
+        font-size: 20px;
+
+    }
+.menu {
+    background-color: red;
+    &:hover{
+     color: pink;
+    }
+    .best1 {
+        text-align: center;
+        font-size: 40px;
+        color: red;
+    }
+    .best2 {
+        font-size: 20x;
+        color: red;
+    
+    }
+.best3 {
+    color: green;
+    font-size: 30px;
+    display:none ;
+}
+
+}
+
+
+
+
+.open{
+    display: none;
+}
+.close {
+    display: none;
+}
+
+ @mixin sec1 {
+    .sec1 {
+        height: 400px;
+        h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    
+ }  
+.sec2 {
+    @include sec1('500px');
+}
+.sec3 {
+    height: 800px;
+
+.btn1 {
+    color: red;
+    font-size: 20px;
+    text-decoration:none ;
+}
+}
+
+.sec4 {
+    height: 1600px;
+    background-color: linear-gradient(45deg,purple,pink,yellow,red) !important ;
+
+.img1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+}
+}
+footer {
+    background-color: rgb(18, 16, 16);
+    height: 400px;
+.pp {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+.h22 {
+    color: white;
+    font-size: 40px;
+}
+
+}
+
+
+
+
+
+
